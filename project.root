@@ -1,0 +1,6 @@
+# create project folder, init npm
+mkdir quickaid-backend && cd quickaid-backend
+npm init -y
+
+# install libs used here (seed script + functions)
+npm install firebase-admin firebase @firebase/testing # (for local rule tests if needed)
